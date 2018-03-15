@@ -1,0 +1,22 @@
+{
+    "name": "funmi/composer-car",
+    "description": "this is a demo for build composer packagist",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wenquan",
+            "email": "wq1427646459@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion"
+        }
+    }
+}
